@@ -30,8 +30,8 @@ setuptools.setup(
         "enabled": True,
         "version_file": version_file,
         "count_commits_from_version_file": True,
-        "dev_template": "{tag}.{branch}{ccount}",
-        "dirty_template": "{tag}.{branch}{ccount}",
+        "dev_template": "{tag}+{branch}{ccount}",
+        "dirty_template": "{tag}+{branch}{ccount}",
     },
     setup_requires=["setuptools-git-versioning<2"],
 )
