@@ -16,7 +16,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/yoyololicon/kamui",
     packages=["kamui"],
-    install_requires=["numpy>=2.0.0", "scipy"],
+    install_requires=["numpy", "scipy"],
     extras_require={
         "extra": ["PyMaxflow"],
     },
